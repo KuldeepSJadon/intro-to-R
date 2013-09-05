@@ -1,8 +1,7 @@
 ##############################################################################
 # title         : Introduction_to_R.R;
 # purpose       : Annotated code and R script for an introduction to R for;
-#               : IRRI Epidemiology and Plant Health Unit Statistics workshop; 
-#               : held in Tagaytay, Philippines May 2012;
+#               : IRRI Plant Disease Management Group workshops on using R;
 # producer      : prepared by A. Sparks;
 # last update   : in Perai, Pulau Pinang, Malaysia, Sep 2013;
 # inputs        : Yields.csv, PlantHeight.csv;
