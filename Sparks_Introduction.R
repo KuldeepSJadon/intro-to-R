@@ -4,7 +4,7 @@
 #               : IRRI Epidemiology and Plant Health Unit Statistics workshop; 
 #               : held in Tagaytay, Philippines May 2012;
 # producer      : prepared by A. Sparks;
-# last update   : in Los Banos, IRRI, May 2012;
+# last update   : in Perai, Pulau Pinang, Malaysia, Sep 2013;
 # inputs        : Yields.csv, PlantHeight.csv;
 # outputs       : Graph of plant yields vs. disease severity;
 ##############################################################################
@@ -166,10 +166,10 @@ exp.data
 
 ### Exercises
 # 1) What would you type to display the DisSev value for plot 5 in exp.data?
-#    Hint: see line 140
+#    Hint: see line 133
 # 2) Create a new data frame called exp.data2 using yield.data and height.data;
 #    using the cbind() command, including the extra "plot" column
-# 3) Now remove the extra plot column, hint [row, column], see line 152
+# 3) Now remove the extra plot column, hint [row, column], see line 143
 # 4) Rename the column "RelYield", in exp.data2, to 'Yield'
 
 
@@ -209,7 +209,7 @@ plot(x = yield.data$DisSev,
 # "Save Plot as Image" or "Save Plot as PDF"
 
 ### Exercises
-# 1) Change the color of the points to red, hint: see lines 211 and 231
+# 1) Change the color of the points to red, hint: see lines 199
 # 2) Change the point type to a solid triangle, hint: '?pch',
 #    hint: use bg after pch = 15 to fill the triangle, don't forget the ',' after 15.
 
